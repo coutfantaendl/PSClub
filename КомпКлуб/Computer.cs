@@ -41,7 +41,7 @@ namespace КомпКлуб
         public void ShowState()
         {
             if (IsTaken)
-                Console.WriteLine($"Компьютер занят, осталось минут: {_minutseRemaining}");
+                Console.WriteLine($"Компьютер занят,осталось минут: {_minutseRemaining}");
             else
                 Console.WriteLine($"Компьютер свободен,цена за минуту: {PricePerMinute}");
         }
